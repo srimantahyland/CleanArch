@@ -1,3 +1,4 @@
+using CleanArch.Infra.Data.Context;
 using CleanArch.Mvc2.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,6 +33,11 @@ namespace CleanArch.Mvc2
                     Configuration.GetConnectionString("UniversityIdentityDBConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddDbContext<UniversityDBContext>( options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("UniversityDBConnection"));
+            });
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
