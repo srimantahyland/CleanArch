@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{3F4238ED-EBFC-4EF1-A286-4C26753B833A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IOC", "Infra.IOC", "{2DD94001-B5CC-420A-8B1D-F5AC7F3A8BB8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{6BBD7B8E-948F-4BBC-AA49-C9CEFFA2C0E6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{BD95CBC1-B806-472E-80D0-E06D5C21A709}"
@@ -20,6 +18,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{0D9B45F5-D55B-49E2-A8F2-A9B614FAE833}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{3CA12BC1-2191-42DF-B5E1-6A54F43E0247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.IoC", "CleanArch.Infra.IoC\CleanArch.Infra.IoC.csproj", "{9FA3D448-7F1F-4330-AA7C-D870818D1805}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +43,10 @@ Global
 		{3CA12BC1-2191-42DF-B5E1-6A54F43E0247}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA12BC1-2191-42DF-B5E1-6A54F43E0247}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA12BC1-2191-42DF-B5E1-6A54F43E0247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA3D448-7F1F-4330-AA7C-D870818D1805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA3D448-7F1F-4330-AA7C-D870818D1805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA3D448-7F1F-4330-AA7C-D870818D1805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA3D448-7F1F-4330-AA7C-D870818D1805}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
