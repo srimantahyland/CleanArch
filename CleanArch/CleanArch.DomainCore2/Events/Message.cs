@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System;
 
-namespace CleanArch.DomainCore.Events
+namespace CleanArch.DomainCore2.Events
 {
     public abstract class Message : IRequest<bool>
     {

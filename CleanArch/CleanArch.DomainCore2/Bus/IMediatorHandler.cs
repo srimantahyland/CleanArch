@@ -1,10 +1,10 @@
-﻿using CleanArch.DomainCore.Commands;
+﻿using CleanArch.DomainCore2.Commands;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArch.DomainCore.Bus
+namespace CleanArch.DomainCore2.Bus
 {
     public interface IMediatorHandler
     {

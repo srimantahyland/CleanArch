@@ -1,9 +1,9 @@
-﻿using CleanArch.DomainCore.Events;
+﻿using CleanArch.DomainCore2.Events;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CleanArch.DomainCore.Commands
+namespace CleanArch.DomainCore2.Commands
 {
     public abstract class Command : Message
     {
