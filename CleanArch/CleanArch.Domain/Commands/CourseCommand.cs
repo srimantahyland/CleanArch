@@ -1,4 +1,4 @@
-﻿using CleanArch.DomainCore2.Commands;
+﻿using CleanArch.Domain.Core.Commands;
 using System;
 using System.Collections.Generic;
 using System.Text;

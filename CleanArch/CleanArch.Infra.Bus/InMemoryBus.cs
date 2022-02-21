@@ -1,5 +1,5 @@
-﻿using CleanArch.DomainCore2.Bus;
-using CleanArch.DomainCore2.Commands;
+﻿using CleanArch.Domain.Core.Bus;
+using CleanArch.Domain.Core.Commands;
 using MediatR;
 using System;
 using System.Threading.Tasks;
